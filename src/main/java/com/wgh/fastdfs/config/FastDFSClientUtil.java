@@ -12,6 +12,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * @author WGH
+ */
 @Component
 public class FastDFSClientUtil {
 
@@ -20,6 +23,7 @@ public class FastDFSClientUtil {
 
     /**
      * 上传
+     *
      * @param file
      * @return
      * @throws IOException
@@ -32,6 +36,7 @@ public class FastDFSClientUtil {
 
     /**
      * 删除
+     *
      * @param filePath
      */
     public void delFile(String filePath) {
@@ -41,6 +46,7 @@ public class FastDFSClientUtil {
 
     /**
      * 下载
+     *
      * @param groupName
      * @param path
      * @return
